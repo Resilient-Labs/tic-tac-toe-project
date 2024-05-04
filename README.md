@@ -1,22 +1,12 @@
-# 📊 Morning Challenge: Tic-Tac-Toe
+# Rugrats Tic-Tac-Toe
 
-### Goal: Create a two player Tic-Tac-Toe game. The users should be able to click to place their X or O and if they win the program should mention their win in the DOM. Please make the game as OOP as possible.
+## Goal
+🎮 Embark on a Nostalgic Adventure with Rugrats Tic-Tac-Toe! Challenge a friend to a riveting game of Rugrats Tic-Tac-Toe, where you can relive your favorite childhood memories. Choose your ally - Chuckie or Tommy - and let the battle commence!
 
-### How to submit your code for review:
+## How to Play
+1. **Select Your Player:** Are you team Chuckie or team Tommy? Decide and get ready to dominate!
+2. **Click 'Play Game':** Dive into the action by clicking 'Play Game' and brace yourself for an epic showdown.
+3. **Place Your Symbol:** Strategically click in the cell box to place your X or O. Every move counts!
+4. **May the Best Rugrat Win!:** Let the game unfold and see who emerges victorious. Will you be crowned the ultimate Rugrat champion?
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Prepare for Rugrats Reptar Rumble - Let the Games Begin!

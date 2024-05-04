@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+body {
+background: url(https://images6.fanpop.com/image/photos/42900000/Tommy-rugrats-42942662-1920-1080.png);
+width: 100%;
+background-size: cover;
+margin: 0 auto;
+background-repeat: no-repeat;
+height: 100%;
+
+
+}
+
+#gameContainer{
+  margin: 5% auto;
+  width: 35%;
+  padding: 1.2rem;
+  text-align: center;
+  background: hsla(43, 100%, 45%, 0.9);
+  border-radius: 20px;
+  border: 15px ridge #b3131b;
+  border-radius: 8px;
+}
+
+#grid-item {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 89%;
+  height: 300px;
+  margin: auto;
+}
+
+.cell-item{
+  border: 2px solid yellowgreen;
+  font-size: 2rem;
+  width: 8.4rem;
+  height: 6.2rem;
+  margin: auto;
+}
+
+#visual-taunt{
+width: 100%;
+height: 5rem;
+}
+
+#visual-taunt img{
+  height: 100%;
+  padding-bottom: .5rem;
+}
+
+button{
+  border: 1px solid #b3131b;
+  background: rgb(224,70,58);
+  padding: 1rem 2rem;
+  border-radius: .2rem;
+  font-weight: 700;
+}
