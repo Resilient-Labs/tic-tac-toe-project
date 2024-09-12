@@ -1,22 +1,21 @@
-# 📊 Morning Challenge: Tic-Tac-Toe
+# Tic-Tac-Toe: Waffles Edition
 
-### Goal: Create a two player Tic-Tac-Toe game. The users should be able to click to place their X or O and if they win the program should mention their win in the DOM. Please make the game as OOP as possible.
+### Description
+This project implements a basic Tic-Tac-Toe game using vanilla JavaScript. It allows two players to take turns placing their symbols on a 3x3 grid. The game checks for wins and draws and displays the results accordingly. Check it out <a href="https://xsarahyu.github.io/tic-tac-toe/">here</a>!
 
-### How to submit your code for review:
+### Features
+- Simple and intuitive user interface
+- Real-time feedback on the game status
+- Proper handling of win and draw scenarios
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img src="tic-tac-toe.png">
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### Tech Used
+- HTML
+- CSS
+- JavaScript
+
+### Lessons Learned
+- How to use constructors to create objects and methods.
+- Trick: Make an independent element equal "false" and use it as a conditional to prevent certain functions from running.
+- How to create CSS animations.

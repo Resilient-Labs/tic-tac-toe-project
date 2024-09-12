@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    user-select: none;
+}
+
+@font-face {
+    font-family: "Autumn in November";
+    src: url(autumn-in-november.ttf);
+}
+
+@font-face {
+    font-family: "Delius Unicase";
+    src: url(delius-unicase-regular.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(199, 230, 255);
+    font-family: "Delius Unicase";
+    font-size: 3rem; /*gameBoard fruit size*/
+    padding-bottom: 10rem;
+}
+
+h1 {
+    font-family: "Autumn in November";
+    font-size: 4rem;
+    margin-bottom: 5px;
+}
+
+p, span {
+    font-size: 1.5rem;
+}
+    .gameStatus {
+        margin-top: -265px;
+        margin-left: 280px;
+        background: rgb(250, 250, 250, 0.75);
+        border: 2px solid rgb(187, 224, 255);
+        padding: 0.75rem;
+        border-radius: 40px;
+    }
+
+.waffle {
+    width: 800px;
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+    margin-top: -385px;
+    margin-left: -260px;
+    rotate: -29deg;
+}
+
+.cell {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: -20px;
+    margin-left: 255px;
+    font-family: "Delius Unicase";
+    background: rgb(199, 230, 255);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(187, 224, 255);
+}
+
+.floatArea {
+    display: flex;
+    flex-direction:column;
+}
+
+#floater {
+    transform: translateY(10%);
+    animation: floater 1.5s infinite;
+    transition: ease 0.5s;
+}
+
+@keyframes floater {
+    0% {transform: translateY(10%);
+        transition: ease 0.5s;}
+    50% {transform: translateY(-10%);
+        transition: ease 0.5s;}
+}
