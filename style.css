@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background:url("https://i.pinimg.com/originals/0f/3b/7f/0f3b7f0be25eab0be0ffb6192760dc0e.gif") right;
+  background-size: contain;
+}
+
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainsec{
+height: 500px;
+width:500px;
+display: flex;
+justify-content: center;
+align-items:center;
+
+}
+
+.cell{
+  height: 150px;
+  width:150px;
+  background-image: url("images/plates-removebg-preview.png");
+  background-size: cover;
+  padding-left: 50px;
+}
+
+img{
+  height:50px;
+  width:50px;
+  margin: auto;
+}
