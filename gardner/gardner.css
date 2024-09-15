@@ -1,0 +1,106 @@
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+.alignright {
+   float: right;
+   padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+   float: left;
+   padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    background: pink;
+}
+
+.title{
+    text-align: center;
+    color: yellow;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin: 2px;
+    width: 225px;
+    height: 150px;
+    background: hotpink;
+    border-radius: 4%;
+    border-style: none;
+    cursor: pointer;  
+}
+
+.box:hover{
+    background: violet;
+}
+
+.unclickable{
+    pointer-events: none;
+}
+
+.winningTiles{
+    background: plum;
+}
+
+h1{
+    font-size: 3rem;
+    color: yellow;
+}
+
+#instructions{
+    line-height: 0;
+    padding-top: 1%;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
