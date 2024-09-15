@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../img/sarvendara-lv-game-background.jpeg");
+  background-size: cover;
+  background-repeat: none;
+  font-family:'Press Start 2P', sans-serif;
+  font-size: 1em;
+
+}
+
+h1{
+  font-size: 1.8em;
+  color: white;
+  margin: 20px auto;
+}
+
+h2{
+  font-size: 1em;
+  color: white;
+  background: rgba(0, 0, 0, 0.582);
+  margin: 20px auto;
+  width: fit-content;
+  text-shadow: 1px 1px 2px rgb(52, 124, 45), 0 0 1em, 0 0 0 ;
+}
+
+#clear{
+  color: rgb(0, 156, 213);
+  background: white;
+  width: 20%;
+  height: 50px;
+  font-size: 1em;
+  box-shadow: 2px 2px 2px 2px rgb(0, 156, 213);
+  border: 2px solid rgb(0, 156, 213);
+  cursor: pointer;
+  font-family:'Press Start 2P', sans-serif;
+}
+
+#clear:hover{
+  background: rgb(3, 74, 100);
+  color: white;
+}
+
+.box{
+  width: 140px;
+  height: 140px;
+  font-size: 60px;
+  background: rgba(255, 255, 255, 0.719);
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+  border: 2px solid black;
+  /* makes it look like a box */
+  cursor: pointer;
+  line-height: 100px;
+  font-family:'Press Start 2P', sans-serif;
+}
+
+
+section{
+  text-align: center;
+
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  /* 9 boxes */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px auto;
+  margin-top: 20px;
+}
+
+span{
+font-weight: bold;
+font-style: italic;
+display: block;
+margin-top: 15px;
+color: black;
+font-size: 1em;
+text-shadow: 1px 1px 2px rgb(52, 124, 45), 0 0 1em, 0 0 0.2em ;
+}
+
+p{
+  color: white;
+  font-size: 1em;
+  text-shadow: 1px 1px 2px rgb(52, 124, 45), 0 0 1em, 0 0 0.2em ;
+}
+
+/* mobile  */
+
+@media screen and (max-width: 1055px){
+  #clear{ 
+    color: rgb(0, 156, 213);
+    background: white;
+    width: 25%;
+    height: 50px;
+    font-size: 1em;
+    box-shadow: 2px 2px 2px 2px rgb(0, 156, 213);
+    border: 2px solid rgb(0, 156, 213);
+    cursor: pointer;
+    font-family:'Press Start 2P', sans-serif;
+  }
+  span{
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+    margin-top: 15px;
+    color: black;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px rgb(52, 124, 45), 0 0 1em, 0 0 .6em ;
+    /* mdn */
+    }
+    
+    p{
+      color: white;
+      font-size: 1.2em;
+      text-shadow: 1px 1px 2px rgb(52, 124, 45), 0 0 1em, 0 0 .6em ;
+    }
+
+}
