@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <section class="main">
+        <!-- top section  -->
+        <header>
+            <h1>Tic Tac Toe</h1>
+
+            <p><span>Player 1: "X"</span> and <span>Player 2: "O"</span></p>
+  
+          <section class="winnerMessage">
+            <p id="result"></p>
+          </section>
+          <!-- ^ this can be moved to after the container section if we want the result to show below the cells instead  -->
+        </header>
+
+        <!-- tic tac toe cells = 9 (3X3) -->
+        <section class="container">
+          <section id="one" class="box"></section>
+          <section id="two" class="box Mid"></section>
+          <section id="three" class="box"></section>
+          <section id="four" class="box Hor "></section>
+          <section id="five" class="box Mid Hor"></section>
+          <section id="six" class="box Hor"></section>
+          <section id="seven" class="box"></section>
+          <section id="eight" class="box Mid"></section>
+          <section id="nine" class="box"></section>
+        </section>
+
+        <button type="button" id="clear" name="button">CLEAR GAME</button>
+    </section>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
