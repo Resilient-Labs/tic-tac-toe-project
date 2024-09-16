@@ -1,0 +1,261 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: arial;
+  text-align: center;
+  background: url(../images/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  background-color: black;
+}
+div{
+  display: flex;
+  flex-flow: row wrap;
+}
+#top{
+  background-color: rgba(255, 255, 255, .75);
+  border: 0.0625rem solid #493ea6;
+  margin-top: 1%;
+  margin-left: 33%;
+  margin-right: 33%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5%;
+  font-size: 1.25rem;
+}
+#logo{
+  width: 100%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+#top p{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+body{
+  color: #fed966;
+  text-shadow: 0.0625rem 0.0625rem 0.125rem #493ea6;
+}
+#eels{
+  color: #17c13a;
+}
+#escalators{
+  color: #c42984;
+}
+#whoseTurn{
+  margin-bottom: 0;
+}
+#mainboard{
+  margin-top: 1%;
+  margin-left: 36.3%;
+  margin-right: 33%;
+}
+#mainboard div{
+  display: flex;
+  width: 24.125rem;
+}
+#mainboard section{
+  border: 0.0625rem solid #493ea6;
+  height: 7.8125rem;
+  width: 7.8125rem;
+  background-color: rgba(255, 255, 255, .75);
+  margin-right: 1%;
+  margin-bottom: 1%;
+  box-shadow: 5px 5px 5px #493ea6;
+  padding: 0;
+  font-size: 6.25rem;
+  padding-top: 1%;
+}
+#mainboard section:hover {
+  background-color: rgba(235, 235, 235, 0.75);
+}
+button{
+  height: 3.125rem;
+  width: 7.8125rem;
+  box-shadow: 5px 5px 5px #493ea6;
+  border: 0.0625rem solid #493ea6;
+  color: #fed966;
+  text-shadow: 0.0625rem 0.0625rem 0.125rem #493ea6;
+  font-size: 1.25rem;
+}
+button:hover{
+  transform: scale(1.1);
+  transition: all ease 500ms;
+}
+#result{
+  background-color: rgba(255, 255, 255, .75);
+  border: 0.0625rem solid #493ea6;
+  margin-left: 36.5%;
+  margin-right: 36.5%;
+}
+#clear{
+  height: 3.125rem;
+  color: #fed966;
+  text-shadow: 0.0625rem 0.0625rem 0.125rem #493ea6;
+  font-size: 1.25rem;
+}
+
+/* Images that appear on */
+
+.Eels{
+  background: url(../images/eel.png) no-repeat center; 
+}
+.Escalators{
+  background: url(../images/escalator.png) no-repeat center; 
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1440px) {
+  #top{
+    margin-left: 33%;
+    margin-right: 33%;
+  }
+  #top span, #top p, #top h2{
+    font-size: 1.25rem;
+  }
+  #mainboard{
+    margin-left: 34.5%;
+    margin-right: 30%;
+  }
+  #mainboard section{
+    height: 8.8125rem;
+    width: 8.8125rem;
+  }
+  #result{
+    margin-left: 34.5%;
+    margin-right: 34.5%;
+    font-size: 1.25rem;
+  }
+  button{
+    height: 3.125rem;
+    width: 7.8125rem;
+    font-size: 1.25rem;
+  }
+  .Eels{
+    background-size: 150px;
+  }
+  .Escalators{
+    background-size: 150px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #top{
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  #mainboard{
+    margin-left: 28.5%;
+    margin-right: 20%;
+  }
+  #result{
+    margin-left: 28.5%;
+    margin-right: 28.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #top{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  #top span, #top p{
+    font-size: 1.25rem;
+  }
+  #top h2{
+    font-size: 1.5625rem;
+  }
+  #mainboard{
+    margin-left: 18.3%;
+    margin-right: 11%;
+  }
+  #mainboard section{
+    height: 9.8125rem;
+    width: 9.8125rem;
+  }
+  #result{
+    margin-left: 18.5%;
+    margin-right: 17.5%;
+    font-size: 1.25rem;
+  }
+  button{
+    height: 3.125rem;
+    width: 7.8125rem;
+    font-size: 1.25rem;
+  }
+  .Eels{
+    background-size: 175px;
+  }
+  .Escalators{
+    background-size: 175px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #top{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #mainboard{
+    margin-left: 3%;
+    margin-right: 0;
+  }
+  #mainboard section{
+    height: 7.8125rem;
+    width: 7.8125rem;
+  }
+  #result{
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+  }
+  .Eels{
+    background-size: 150px;
+  }
+  .Escalators{
+    background-size: 150px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #top{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #mainboard section{
+    height: 6.8125rem;
+    width: 6.8125rem;
+  }
+  #result{
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+  }
+
+  .Eels{
+    background-size: 120px;
+  }
+  .Escalators{
+    background-size: 120px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #mainboard{
+    margin-left: 3%;
+    margin-right: 0;
+  }
+  #mainboard section{
+    height: 5.8125rem;
+    width: 5.8125rem;
+  }
+
+  .Eels{
+    background-size: 100px;
+  }
+  .Escalators{
+    background-size: 100px;
+  }
+}
