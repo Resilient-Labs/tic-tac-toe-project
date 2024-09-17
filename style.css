@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./images/bikinibottom.png");
+    background-size: cover;
+}
+h1,h2,h3,.score,#placetoseewinner,p{
+    text-align: center;
+    font-family: 'Fredoka one' , sans-serif;
+}
+#placetoseewinner{
+    font-size: 30px;
+    color: white;
+}
+h1+p{
+    font-size: 20px;
+    color: lightblue;
+}
+h2{
+    color: lightblue;
+}
+.score{
+    color: lightblue;
+}
+.yellow{
+    color:rgb(255, 251, 0);
+}
+.purple{
+    color: plum;
+}
+h3{
+    clear: both;
+    color: lightblue;
+}
+button{
+    margin-left: 47%;
+}
+.toprow{
+    height: 160px;
+    width: 40%;
+    margin-left: 30%;
+}
+.row1,.row2,.row3{
+    height: 160px;
+    float: left;
+    width: 33%;
+}
+.row1,.row2{
+    border-bottom: 2px solid white;
+}
+.borderR{
+    border-right: 2px solid white;
+}
+.midrow,.bottomrow{
+    clear: both;
+    height: 100px;
+    width: 40%;
+    margin-left: 30%;
+}
+div img{
+    height: 100px;
+    width: 100px;
+}
+
+
+/* image appear when player1 clicked */
+.backgroundPlayer1{
+    background-image: url('./images/spongebob.png');
+    background-size: cover;
+}
+
+/* image appear when player2 clicked */
+
+.backgroundPlayer2{
+    background-image: url('./images/pngegg.png');
+    background-size: cover;
+}
+
+
+@media all and (max-Width: 1024px){
+    .toprow,.midrow,.bottomrow{
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+
+@media all and (max-Width: 820px){
+    .toprow,.midrow,.bottomrow{
+        width: 64%;
+        margin-left: 20%;
+    }
+}
+
+@media all and (max-Width: 390px){
+    .toprow,.midrow,.bottomrow{
+        width: 100%;
+        margin-left: 0;
+    }
+    h2{
+        word-spacing: 20px;
+    }
+}

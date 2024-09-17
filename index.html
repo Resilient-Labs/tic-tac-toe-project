@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <h1 class="yellow">SpongeBob </h1><p>vs</p> <h1 class="purple">Patrick</h1>
+    </div>
+    <div class="board">
+        <div class="toprow">
+          <div id="0" class="row1 borderR box" ></div>
+          <div id="1" class="row1 borderR box" ></div>
+          <div id="2" class="row1 box" ></div>
+        </div>
+        <div class="midrow">
+          <div id="3" class="row2 borderR box " ></div>
+          <div id="4" class="row2 borderR box " ></div>
+          <div id="5" class="row2 box " ></div>
+        </div>
+        <div class="bottomrow">
+          <div id="6" class="row3 borderR box " ></div>
+          <div id="7" class="row3 borderR box " ></div>
+          <div id="8"class="row3 box " ></div>
+        </div>
+    </div>
+            <div>
+                <h3 id="placetoseeplayerturn">Player One Turn</h3>
+              <p id="placetoseewinner"></p>
+            </div>
+                <div class="btn-container">
+                  <button class="reset-button" id="resetButton">play again</button>
+                </div>
+                    <div>
+                        <h2> Player One: <span> <img class="img1" src="images/spongebob.png" alt=""> </span> Player Two: <span><img src="images/pngegg.png" alt=""></span></h2>
+                        <p class="score">Player One Score: <span id="seeplayer1score"></span></p><p class="score">Player Two Score: <span id="seeplayer2score"></span></p>
+                    </div>
+
+                    <script src="main.js"></script>
+    
+</body>
+</html>

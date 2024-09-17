@@ -1,22 +1,16 @@
-# 📊 Morning Challenge: Tic-Tac-Toe
+<section>
+  <h1 align="center">Tic Tac Toe</h1>
+<p align="center">
+ This is a website with a Spongebob themed Tic Tac Toe game. The game allows you to keep score while clearing the board after every game to continue competing against one another.
+</p>
 
-### Goal: Create a two player Tic-Tac-Toe game. The users should be able to click to place their X or O and if they win the program should mention their win in the DOM. Please make the game as OOP as possible.
+<section align="center">
+  <img width="1792" alt="Screen Shot 2022-05-12 at 9 48 42 AM" src="https://user-images.githubusercontent.com/102041426/172070074-e9dd4b48-44b3-4484-a4f7-7ad26b9515b9.png">
+  </section>
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+</section>
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<h2 align="center"> Languages used</h2>
+<p align="center"> HTML, CSS, Javascript  </p>
+
