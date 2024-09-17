@@ -1,0 +1,130 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background: whitesmoke;
+     /* font-family: 'Nunito Sans', sans-serif; */
+     font-family: 'Rubik', sans-serif;
+     color: gray;
+}
+
+.title{
+     text-align: center;
+}
+
+.board{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(3, 1fr);
+}
+
+section{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     font-size: 5rem;
+     color: gray;
+     margin: 0.5rem;
+     width: 15rem;
+     height: 20vh;
+     background: lightskyblue;
+     border-radius: 4%;
+     border-style: none;
+     cursor: pointer;  
+}
+
+.box:hover{
+     background: grey;
+}
+
+.unclickable{
+     pointer-events: none;
+}
+
+.winningTiles{
+     background: lightgoldenrodyellow;
+}
+
+h1{
+     line-height: 0;
+     font-size: 2.5rem;
+}
+
+#instructions{
+     line-height: 0;
+     padding-top: 1%;
+     font-size: 1rem;
+}
+
+#message{
+     font-size: 1.5rem;
+}
+
+.resetContainer{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#reset{
+     border: solid lightskyblue;
+     background: none;
+     color: gray;
+     width: 6rem;
+     height: 4vh;
+     margin: 1%;
+}
+
+#reset:hover{
+     background: lightgrey;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
