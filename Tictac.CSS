@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("tics.jpg");
+  background-repeat: no-repeat;
+}
+h1 {
+  margin-left: 30%;
+  margin-top: 7%;
+  color: rgb(223, 217, 217);
+  font-size: 60px;
+  font-family: "Eater", cursive;
+  text-decoration: underline;
+  background-color: black;
+  width: 48%;
+}
+#board {
+  width: 40%;
+  border: 2px solid black;
+  float: left;
+  align-items: center;
+  margin-left: 30%;
+  margin-top: 5%;
+  height: 480px;
+  background-color: rgb(0, 0, 0);
+}
+.cell {
+  align-items: center;
+  border: 1px solid purple;
+  height: 140px;
+  width: 30%;
+  float: left;
+  margin: 7px;
+  font-family: "Rubik Beastly", cursive;
+  color: papayawhip;
+  font-size: 80px;
+  text-align: center;
+}
+.cell:hover {
+  cursor: initial;
+  background-color: rgb(7, 7, 53);
+}
+button {
+  float: left;
+  width: 33%;
+  font-size: 28px;
+  margin-left: 33%;
+  height: 40px;
+  margin-top: 2%;
+  background-color: rgb(215, 230, 235);
+  font-family: "Special Elite", cursive;
+}
+#pTurn {
+  font-size: 25px;
+  float: left;
+  align-items: center;
+  width: 23%;
+  margin-left: 30%;
+  color: aliceblue;
+  font-family: "Eater", cursive;
+  text-decoration: underline;
+
+  background-color: black;
+}
