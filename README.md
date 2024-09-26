@@ -1,22 +1,14 @@
-# 📊 Morning Challenge: Tic-Tac-Toe
+# Tic-Tac-Toe ❌⭕
 
-### Goal: Create a two player Tic-Tac-Toe game. The users should be able to click to place their X or O and if they win the program should mention their win in the DOM. Please make the game as OOP as possible.
+Alternate between player one (x) and player two (o) to place their respective symbol - in order to win get three in a row diagonally, horizontally, or vertically.
 
-### How to submit your code for review:
+**Live Demo:** link to be created
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![image](https://user-images.githubusercontent.com/88993361/134933342-3f69cf6a-4fdc-49c0-a2cc-4d694c60a844.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made
+
+The appplication mainly focuses on using OOP to execute the code. Using four methods, the computer first checks if the player's move is a valid move, once it verifies the move to be valid the player's turn is recorded, then the computer checks for a win, and resets the board once the reset button is hit.
+
+## What I Learned
+Because a game of Tic-Tac-Toe relies on repetitive actions, using OOP for this program was a really efficient way to execute it. After the application was finished, I realized how much shorter and cleaner my code was after implementing OOP compared to my previous code (using only HTML, CSS, and everything stored in a main JS). Overall, I learned a lot of OOP basics and am confident about my understanding of it.
