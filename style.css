@@ -1,0 +1,139 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+  background-color: lightgray;
+}
+
+h1 {
+  margin-left: 634px;
+}
+
+main {
+  width: 30%;
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 60px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.firstRow, .secondRow, .thirdRow {
+  height: 100px;
+  width: 100%;
+  float: left;
+}
+
+.firstRow div, .secondRow div, .thirdRow div {
+  border: 2px solid black;
+  height: 100px;
+  width: 33.333%;
+  float: left;
+}
+
+.firstRow :first-child {
+  border-top: none;
+  border-left: none;
+}
+
+.firstRow :nth-child(2) {
+  border-top: none;
+}
+
+.firstRow :nth-child(3) {
+  border-top: none;
+  border-right: none;
+}
+
+
+.secondRow :first-child {
+  border-left: none;
+}
+
+.secondRow :nth-child(3) {
+  border-right: none;
+}
+
+.thirdRow :first-child {
+  border-left: none;
+  border-bottom: none;
+}
+
+.thirdRow :nth-child(2) {
+  border-bottom: none;
+}
+
+.thirdRow :nth-child(3) {
+  border-right: none;
+  border-bottom: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet size */
+@media (min-width:601px) and (max-width: 800px) {
+
+}
+
+
+
+
+ /* Mobile size  */
+@media only screen and (max-width: 600px) {
+
+}
+
