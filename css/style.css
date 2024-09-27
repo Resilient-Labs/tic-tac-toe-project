@@ -1,0 +1,85 @@
+/******************************************
+/* CSS
+/*******************************************/
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../img/retrogaming.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  font-size: 3em;
+  color: black;
+  margin: 10px auto;
+  margin: 10% 10% 0 10%;
+}
+
+h2{
+  font-size: 1.5em;
+  color: black;
+  margin: 20px auto;
+}
+
+#clear{
+  background-color: peachpuff;
+  width: 200px;
+  height: 50px;
+  font-size: 1em;
+  color: rgb(56, 157, 190);
+  box-shadow: 2px 2px 2px 2px orange;
+  border: 2px solid orange;
+}
+
+#clear:hover{
+  color: black;
+
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  box-shadow: 2px 2px 2px 2px gray;
+  border: 2px solid black;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 60px;
+}
+
+
+section{
+  text-align: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-items: center;
+  width: 306px;
+  margin: 10px auto;
+}
+
+span{
+font-weight: bold;
+display: block;
+margin-top: 10px;
+}
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
