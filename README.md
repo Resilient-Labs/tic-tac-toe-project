@@ -18,5 +18,5 @@ Example:
 ```
 I completed the challenge: 5
 I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+I need to work on making it more object oriented... I have appropriate functions and made the code concise, so I saw less need for classes and constructors. I'm submitting this now as it's modular enough to not be a headache to read I think, but I'll work on making it more object oriented
 ```
