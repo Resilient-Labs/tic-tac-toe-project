@@ -1,46 +1,48 @@
-let currentPlayer = "X";
+class TicTacToe {
+  constructor() {
+    this.currentPlayer = "X"; // Tracks the current player
+    this.squareDivs = Array.from(document.querySelectorAll("#square")); // Convert NodeList to an array
+    this.winnerMessage = document.querySelector(".winnerMessage"); // Message display
+    this.init(); // Start the game by initializing event listeners
+  }
 
-// Select all the squares
-let squareDivs = document.querySelectorAll("#square"); // Will return a NodeList
-squareDivs = Array.from(squareDivs); // Convert NodeList into an array
+  // Initialize event listeners for squares and reset button
+  init() {
+    // Add click event listeners to all squares
+    this.squareDivs.forEach((square, index) => {
+      square.addEventListener('click', () => this.handleTurn(square, index));
+    });
 
-// Add event listener to all the squares
-squareDivs.forEach(e => {
-  e.addEventListener('click', () => {
+    // Add event listener to the reset button
+    document.querySelector('#reset').addEventListener('click', () => this.restart());
+  }
 
-    // Check if the cell already has innerText. If it does, it means the square has already been selected.
-    if (e.innerText != "") {
-      return;
-    }
+  // Handle the turn when a square is clicked
+  handleTurn(square, index) {
+    // Prevent selecting an already filled square
+    if (square.innerText !== "") return;
 
-    // Place the current player's symbol in the clicked square
-    e.innerText = currentPlayer;
+    // Place the current player's symbol in the square
+    square.innerText = this.currentPlayer;
 
-    // Initialize a new instance of the GameBoard class
-    const gameBoard = new GameBoard();
-
-    // Check for a draw or a winner after the player's move
-    gameBoard.checkDraw();
-    gameBoard.checkForWin();
+    // Check for a draw or a winner
+    this.checkForWin();
+    this.checkDraw();
 
     // Change the player's turn
-    currentPlayer = currentPlayer === "X" ? "O" : "X";
+    this.currentPlayer = this.currentPlayer === "X" ? "O" : "X";
+  }
 
-  });
-});
-
-// Define the GameBoard class
-class GameBoard {
-
-  // Method to check for a draw
+  // Check for a draw
   checkDraw() {
-    let draw = squareDivs.every(e => e.innerText === "X" || e.innerText === "O");
+    const draw = this.squareDivs.every(square => square.innerText === "X" || square.innerText === "O");
+
     if (draw) {
-      document.querySelector(".winnerMessage").innerText = `It is a tie!`; // Show tie message
+      this.winnerMessage.innerText = `It is a tie!`;
     }
   }
 
-  // Method to check for a winner
+  // Check for a winner
   checkForWin() {
     // List of all possible winning combinations
     const winCombinations = [
@@ -52,20 +54,26 @@ class GameBoard {
     // Check each winning combination
     winCombinations.forEach(combination => {
       const [a, b, c] = combination;
-      if (squareDivs[a].innerText === currentPlayer &&
-          squareDivs[b].innerText === currentPlayer &&
-          squareDivs[c].innerText === currentPlayer) {
-        document.querySelector(".winnerMessage").innerText = `${currentPlayer} Wins YAAY!`; // Show winning message
+
+      if (this.squareDivs[a].innerText === this.currentPlayer &&
+          this.squareDivs[b].innerText === this.currentPlayer &&
+          this.squareDivs[c].innerText === this.currentPlayer) {
+        this.winnerMessage.innerText = `${this.currentPlayer} Wins YAAY!`;
+        this.disableBoard(); // Stop the game once there's a winner
       }
     });
   }
 
-  // Method to restart the game
+  // Disable the board when there's a winner
+  disableBoard() {
+    this.squareDivs.forEach(square => square.removeEventListener('click', this.handleTurn));
+  }
+
+  // Restart the game by reloading the page
   restart() {
     window.location.reload(); // Reload the page to reset the game
   }
 }
 
-// Add event listener to the reset button
-const gameBoard = new GameBoard();
-document.querySelector('#reset').addEventListener('click', gameBoard.restart);
+// Start a new game
+const game = new TicTacToe();
