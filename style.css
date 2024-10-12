@@ -1,0 +1,172 @@
+body {  
+    font-family:'Rock Salt', 'Permanent Marker';
+    color: #000000;
+    font-weight:bold ;
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.4em;
+    font-family:'Permanent Marker';
+    font-size: 40px;
+    margin:10px
+}
+
+h2{
+    border-bottom:2px solid black;
+    text-align: center;
+    border:4px solid black;
+    letter-spacing: 0.3em;
+}
+
+#board {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:20px;
+    width: 375px;
+    height: 375px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    background-color: #F5F5F5;
+    color:black;
+    font-family: 'Permanent Marker';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer
+}
+
+.square:hover {
+    background-color: pink;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+tr{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+td{
+    margin: 0 50px 4px 50px;
+}
+
+th{
+    margin: 0 20px 4px 20px;
+}
+
+th,td{
+    
+    font-family: 'Permanent Marker';
+    font-size: 20px;
+}
+
+#playeronescore,#playertwoscore{
+    border:2px solid black;
+    text-align: center;
+    padding:7px
+}
+
+#restartButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    font-size: 20px;
+    font-family: 'Permanent Marker';
+    color:white;
+    letter-spacing: 0.1em;
+    text-align: center;
+    cursor:pointer
+}
+
+#restartButton:hover {
+    background-color:pink;
+    color: #FFFFFF;
+}
+
+#status{
+    font-family: 'Permanent Marker';
+    font-size: 15px; 
+    color:rgb(248, 119, 141);
+    text-align: center;
+    padding:10px;
+    letter-spacing: 0.1em;
+}
+
+@media screen and (max-width: 480px) {
+    #board {
+        max-width: 300px;
+        grid-gap: 3px;
+    }
+    
+    .square {
+        font-size: 30px;
+    }
+    
+    #restartButton {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    
+    #status {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #board {
+        max-width: 350px;
+        grid-gap: 4px;
+    }
+    
+    .square {
+        font-size: 35px;
+    }
+    
+    #restartButton {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    
+    #status {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #board {
+        max-width: 400px;
+        grid-gap: 5px;
+    }
+    
+    .square {
+        font-size: 45px;
+    }
+    
+    #restartButton {
+        font-size: 20px;
+        padding: 12px 24px;
+    }
+    
+    #status {
+        font-size: 22px;
+    }
+}
