@@ -9,12 +9,15 @@ console.log('XorO is ' + XorO);
 document.querySelector('#reset-board').addEventListener('click', resetBoard)
 
 function resetBoard(){
-    squares.forEach(square => square.innerText = null)
+    squares.forEach(square => square.innerText = null);
     win = false;
+    XorO = 'X';
+    XorOSpan.innerText = XorO;
     document.querySelector('#winner-text').classList.add("hidden");
     document.querySelector('#current-turn').classList.remove("hidden");
-       
+
 }
+
 // placeXO, if current turn is X uses innerText to place X in button of choice. If O, same. 
 function whoWon(XorOSquares) {
     if (XorOSquares.includes('one') && XorOSquares.includes('two') && XorOSquares.includes('three') ||
@@ -48,6 +51,8 @@ function placeXO(click) {
                 console.log(`${XorO} WON!`)
                 document.querySelector('#current-turn').classList.add("hidden");
                 document.querySelector('#winner-text').innerText = `${XorO} won!`;
+                document.querySelector('#winner-text').classList.remove("hidden");
+
                 win = true;
             }
             // else, change turn and continue
