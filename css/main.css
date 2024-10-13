@@ -1,0 +1,136 @@
+.bigcontainer {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    justify-content: space-evenly; */
+    display: grid;
+    grid-template-columns: 120px 120px 110px;
+    grid-template-rows: 125px 125px 125px 125px; 
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: center; 
+    height: 405px;
+    /* width:  370px; */
+    /* background-color: rgb(178, 219, 246); */
+    color: rgb(54, 160, 231);
+    /* border: 2px solid rgb(54, 160, 231); */
+    margin-top: 95px;
+    position: relative;
+  }
+  .winningMessage{
+    text-align: center;
+  }
+  #reset{
+    background-color: rgb(54, 160, 231);
+    color: rgb(150, 198, 231);
+    border: none;
+    border-radius: 15px;
+    height: 35px;
+    width: 100px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  .messageTextElement, h1{
+   text-align: center;
+   margin-left: 20px;
+   margin-top: 10px;
+   color: rgb(54, 160, 231);
+  }
+  /* #strike{
+    position: absolute;
+    background-color: rgb(54, 160, 231);
+  }
+  .strike-row-1{
+    width: 36%;
+    height: 2px;
+    top: 15%;
+    margin-left: 32%;
+  }
+  .strike-row-2{
+    width: 36%;
+    height: 2px;
+    top: 48%;
+    margin-left: 32%;
+  }
+  .strike-row-3{
+    width: 36%;
+    height: 2px;
+    top: 81%;
+    margin-left: 32%;
+  }
+  .strike-column-1{
+    height: 91%;
+    width: 2px;
+    left: 6%;
+    margin-left: 31.5%;
+    margin-top: 1%;
+  }
+  .strike-column-2{
+    height: 91%;
+    width: 2px;
+    left: 19%;
+    margin-left: 31.5%;
+    margin-top: 1%;
+  }
+  .strike-column-3{
+    height: 91%;
+    width: 2px;
+    left: 31.5%;
+    margin-left: 31.5%;
+    margin-top: 1%;
+  } */
+  /* .strike-diagonal-1{
+    height: 91%;
+    width: 2px;
+    left: 31.5%;
+    margin-left: 31.5%;
+    margin-top: 1%;
+    transform: skewY(45deg);
+  } */
+  /* display: grid;
+  grid-template-columns: 120px 120px 110px;
+  grid-template-rows: 125px 125px 125px 125px;
+  column-gap: 10px;
+  row-gap: 15px;
+  justify-content: center;
+  height: 405px;
+  width: 370px;
+   background-color: rgb(178, 219, 246);
+  color: rgb(54, 160, 231);
+  border-radius: 20px;
+  border: 2px solid rgb(54, 160, 231); */
+ 
+ .gridBox{
+    border: 2px solid rgb(54, 160, 231);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(150, 198, 231);
+ }
+ /* .scoreboard{
+    color: rgb(54, 160, 231);
+     font-size: 50px; 
+    border-bottom: solid 2px rgb(54, 160, 231);
+    text-align: center;
+    padding-bottom: 5px;
+ }
+ .scoreboard tbody, tfoot{
+    text-align: center;
+ }
+  */
+ 
+ 
+  /* .gridBox1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 125px;
+    width: 120px;
+  }
+  .gridBox2{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    height: 125px;
+  } */
