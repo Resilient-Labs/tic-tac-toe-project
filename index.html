@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<!-- beginning section -->
+		<section class="intro">
+			<h1>Tic-Tac-Toe</h1>
+			<p>Click to any box and start to play!</p>
+			<p>First Player is O. Second Player is X. The player that reaches 3 in a row <strong>wins!</strong></p>
+		</section>
+		<!-- Grid of game -->
+		<section class="gameSection">
+			<section class="row">
+				<div cellIndex="0" id="a1" class="cell"></div>
+				<div cellIndex="1" id="a2" class="cell"></div>
+				<div cellIndex="2" id="a3" class="cell"></div>
+			</section>
+			<section class="row">
+				<div cellIndex="3" id="a4" class="cell"></div>
+				<div cellIndex="4" id="a5" class="cell"></div>
+				<div cellIndex="5" id="a6" class="cell"></div>
+			</section>
+			<section class="row">
+				<div cellIndex="6" id="a7" class="cell"></div>
+				<div cellIndex="7" id="a8" class="cell"></div>
+				<div cellIndex="8" id="a9" class="cell"></div>
+			</section>
+		</section>
+		<section class="results">
+		<!-- button for reset game -->
+		<button id="resetGame">Reset</button>
+		<!-- place holder for winner message -->
+		<p id="resultOfWinner"></p>
+		</section>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
