@@ -1,0 +1,43 @@
+/* Board */
+
+.board {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,150px);
+    gap: 5px;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 225, 255, 0.883);
+}
+
+/* .body */
+
+body {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.creativefabrica.com%2Fwp-content%2Fuploads%2F2022%2F02%2F03%2FCrumpled-paper-texture-background-Graphics-24602098-1.jpg&f=1&nofb=1&ipt=82c6585854e2e6b1f4d5afa6a83eaa30e4cef7215073d3a941bd4838744be244&ipo=images);
+    display: flex;
+    justify-content: center;
+}
+
+/* X && O && H1 font */
+
+.board {
+    color: rgb(160, 57, 71);
+    font-size: 40px;
+}
+
+
+/* results */
+
+.result {
+    margin-top: 650px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid rebeccapurple;
+    overflow-x: auto;
+    
+}
