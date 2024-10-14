@@ -1,0 +1,18 @@
+/* Board */
+
+.board {
+    margin-top: 20%;
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    gap: 5px;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 225, 255, 0.883);
+}
+
