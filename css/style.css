@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+
+}
+
+#board {
+  /* border: 1px solid black; */
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+}
+
+.square {
+  height: 100px;
+  cursor: pointer;
+}
+
+.right {
+  border-right: 2px solid green;
+}
+
+.bottom {
+  border-bottom: 2px solid green;
+}
