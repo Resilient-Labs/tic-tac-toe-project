@@ -6,12 +6,11 @@ Link to project: https://color-tic-tac-toe.netlify.app/
 
 ## Technology Used
 
-    - HTML
-    - CSS
-    - JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## Screenshots
 
-  <img src="img/tic-tac-toe-empty.png" alt="Empty tic tac toe board"/>
-  <img src="img/tic-tac-toe-filled.png" alt="Filled tic tac toe board"/>
-  d
+  <img src="img/tic-tac-toe-empty.png" alt="Empty tic tac toe board" width="300" height="300"/>
+  <img src="img/tic-tac-toe-filled.png" alt="Filled tic tac toe board" width="300" height="300"/>
