@@ -12,5 +12,5 @@ Link to project: https://color-tic-tac-toe.netlify.app/
 
 ## Screenshots
 
-  <img src="img/tic-tac-toe-empty.png" alt="Empty tic tac toe board" width="300" height="300"/>
-  <img src="img/tic-tac-toe-filled.png" alt="Filled tic tac toe board" width="300" height="300"/>
+  <img src="img/tic-tac-toe-empty.png" alt="Empty tic tac toe board" width="500" height="500"/>
+  <img src="img/tic-tac-toe-filled.png" alt="Filled tic tac toe board" width="500" height="500"/>
