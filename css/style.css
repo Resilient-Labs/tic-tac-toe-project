@@ -3,6 +3,21 @@
 
 }
 
+body {
+  font-family: "Gluten", cursive;
+  background: #cddfa0;
+}
+
+h1 {
+  text-align: center;
+  color: #2F1847;
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: #2F1847;
+}
+
 #board {
   /* border: 1px solid black; */
   width: 300px;
@@ -16,12 +31,26 @@
 .square {
   height: 100px;
   cursor: pointer;
+  border: 1px solid #D5C6E0;
+  background: #aaa1c8;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
 }
 
-.right {
-  border-right: 2px solid green;
+.bottom-section {
+  text-align: center;
 }
 
-.bottom {
-  border-bottom: 2px solid green;
+#resetBtn {
+  border: none;
+  background: #2F1847;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#resetBtn:hover {
+  background: #68557c;
 }

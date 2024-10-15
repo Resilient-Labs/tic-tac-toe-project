@@ -1,11 +1,3 @@
-// Each player should be able to click on a square -  add "click" event to each square
-// When clicking the squares add an X or O
-// Each player needs to be assigned an X or O
-// Add a conditional to check whether or not player 1 just went or player 2 just went
-// For the start of game player 1 always goes first
-// When game is over add a reset function that allows player 1 to start the game
-// If either player wins the game, display who won on the DOM
-
 let square = document.querySelectorAll(".square"); // This is a static NodeList that has a length of 9
 const winningMsg = document.querySelector("#winningMsg");
 const resetBtn = document.querySelector("#resetBtn");
@@ -41,6 +33,12 @@ class TicTacToe {
 
       // Switch player's turn
       this.currentPlayer = this.currentPlayer === "X" ? "O" : "X";
+
+      if (this.currentPlayer !== "X") {
+        square.style.backgroundColor = "#4eb690";
+      } else {
+        square.style.backgroundColor = "#ED6A5A";
+      }
     }
   }
 
