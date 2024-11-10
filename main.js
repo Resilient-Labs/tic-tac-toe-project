@@ -83,7 +83,7 @@ function whoWon(eventObject){
         document.querySelector('#messageToUser').innerText = `${playerTurn} wins!`
         removeAll()
     }else if(drawIncrement == 8){
-        document.querySelector('#messageToUser').innerText = `I'ts a draw!`
+        document.querySelector('#messageToUser').innerText = `It's a draw!`
         removeAll()
     }
  
