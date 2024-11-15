@@ -3,8 +3,8 @@ This page is an interactive game of tic tac toe!
 
 **Link to project:**  https://tictactote.netlify.app/
 
-![alt tag](https://i.imgur.com/eseRLz3.png)
 
+<img src="https://i.imgur.com/eseRLz3.png" width=40% height=40%>
 ## How It's Made:
 
 **Tech used:** HTML, CSS, Javascript
