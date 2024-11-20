@@ -1,22 +1,20 @@
-# 📊 Morning Challenge: Tic-Tac-Toe
+# Tic Tac Toe
 
-### Goal: Create a two player Tic-Tac-Toe game. The users should be able to click to place their X or O and if they win the program should mention their win in the DOM. Please make the game as OOP as possible.
+![Thumbnail](css/assets/thumbnail.png)
 
-### How to submit your code for review:
+Link to project: (https://tictacobject.netlify.app/)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+Tech used: HTML, CSS, JS
+
+This application emphasizes object-oriented programming to create the entirety of the tic-tac-toe game. The game itself is constructed as an instance of an object from the TicTacToe class in JS. 
+
+## Optimizations
+
+Initially I had created the entire game using just functional programming, but decided to go back and make the entire a game an object to clean up the code.
+
+## Lessons Learned
+
+The most important lesson I learned from this is when adding event listeners to objects, it is important to use the 'this' keyword to bind the event listeners to the instance of the object, so that they are not bound to the window object. Having the event listeners without binding them to the window object was causing the site to break. 
+
