@@ -15,6 +15,11 @@ body * {
   font-family: 'Acme', 'Helvetica', sans-serif;
 }
 
+body {
+  background-color: lightgreen;
+  height: 100vh;
+}
+
 main {
   display: flex;
   flex-direction: column;
