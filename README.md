@@ -2,7 +2,7 @@
 
 ![Thumbnail](css/assets/thumbnail.png)
 
-Link to project: ((https://tictacobject.netlify.app/))
+Link to project: (https://tictacobject.netlify.app/)
 
 
 ## How It's Made:
