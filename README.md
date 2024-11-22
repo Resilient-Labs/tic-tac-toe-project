@@ -1,4 +1,4 @@
-Tic-Tac-Toe
+## Project:Tic-Tac-Toe
 
 ### Goal: Two player Tic-Tac-Toe game. Users click to place their X or O. If they win the program mentions their win in the DOM, and keeps score. 
 
