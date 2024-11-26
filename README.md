@@ -1,22 +1,16 @@
-# 📊 Morning Challenge: Tic-Tac-Toe
+Tic Tac Toe Game
+This page is an interactive game of tic tac toe!
 
-### Goal: Create a two player Tic-Tac-Toe game. The users should be able to click to place their X or O and if they win the program should mention their win in the DOM. Please make the game as OOP as possible.
+**Link to project:**  https://tictactote.netlify.app/
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img src="https://i.imgur.com/eseRLz3.png" width=40% height=40%>
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, Javascript
+
+This one was build from scratch as well, but was a bit more challenging as there were a lot of moving parts to keep track of placement to determine who wins and whos turn it is etc.
+
+## Lessons Learned:
+
+I learned a lot about interactivity with this assignment. Lots of new explosure in this one, like eventObjects, removing EventListeners and even get some practive in with nodelists rather than arrays.
