@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <div id="status"></div>
+
+    <div id="board">
+        <div class="square" id="0"></div>
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+    </div>
+    <div id="restart">
+        <input type="button" value="Restart" id="restartButton"/>
+    </div>
+    <div class="scoreboard">
+        <h2>Scoreboard</h2>
+       <table class="score">
+        <tbody>
+           <tr>
+              <td id="playeronescore">0</td>
+              <td id="playertwoscore">0</td>
+           </tr>
+        </tbody>
+        <tfoot>
+           <tr>
+              <th> Player 1 </th>
+              <th> Player 2 </th>
+           </tr>
+        </tfoot>
+       </table>
+      </div>
+    <script src="main.js"></script>
+</body>
+</html>
