@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('bck.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+#gameContainer{
+  height: 400px;
+  width: 60%;
+  margin: 0 auto;
+  border: 2px solid black; 
+  border-bottom: 2px solid black;
+  cursor: none;
+}
+
+#gameTitle{
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+  font-stretch: expanded;
+  color:aqua;
+  margin-bottom: -1%;
+}
+
+.gameRestart{
+  margin: 0 auto;
+  display: block;
+  margin-top: -1%;
+  
+}
+
+.box{
+  height: 33.333%;
+  width: 33.333%;
+  border: 2px solid black;
+  float:left;
+  cursor: pointer;
+  text-align: center;
+  font-size:100px;
+}
+
+.gameStatus{
+  font-size: 25px;
+  color:aqua;
+  margin-bottom: 2%;
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+  font-stretch: expanded;
+  color:aqua;
+  margin-top: 1%;
+}
+
+.playerTurn{
+  text-align: center;
+  margin-bottom: 1%;
+  font-family: 'Passion One', cursive;
+  color:blueviolet;
+
+}
+  
+
