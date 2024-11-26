@@ -1,22 +1,28 @@
-# 📊 Morning Challenge: Tic-Tac-Toe
+# Tic Tac Toe Game
 
-### Goal: Create a two player Tic-Tac-Toe game. The users should be able to click to place their X or O and if they win the program should mention their win in the DOM. Please make the game as OOP as possible.
+This project is a browser-based implementation of the classic **Tic Tac Toe** game. It allows two players to take turns marking spaces on a 3x3 grid until one player wins or the game ends in a draw. The game logic, event handling, and UI interactions are implemented using JavaScript, HTML, and CSS.
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img width="601" alt="Screenshot 2024-10-13 at 6 12 29 PM" src="https://github.com/user-attachments/assets/194dde6c-5300-4cff-bab1-575d4aca7690">
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
+## Features
+- **Two-Player Turn-Based Gameplay**: Players alternate turns, marking their symbol (`X` or `O`) on the grid.
+- **Win Detection**: Automatically detects winning combinations and declares the winner.
+- **Draw Condition**: Declares a draw if all spaces are filled without a winner.
+- **Reset Functionality**: Resets the board for a new game.
+- **Dynamic Message Display**: Displays messages for the winner, draw, and player turns.
+
+
+
+## Future Enhancements
+- Add a scoreboard to track wins for each player.
+- Implement animations for winning combinations.
+- Make the game responsive for mobile devices.
+- Add an AI opponent for single-player mode.
+
+
+
+
+
